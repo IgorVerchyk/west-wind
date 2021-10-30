@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "westwind-326717",
+  "private_key_id": "7b3ca35105efbe62620afb3791077d6cb9910412",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCs2vPcPMMV8ald\nWDltBCn80t6tw8+0VaHnJqjKfX8rWHe2sx0BLu99qTRv509M60HyvswHfSURSXNQ\nd7Pm4OJ2PlhDa9/FGqlBUduMPAdpaVobtf4DdnlYGyQBF9b8zWLckzCAahmmCuHE\ngVZdlMUmygMS3BRCD4A0uG6E2e/zeJkxoTyf08Vov31vnKEx0NWAQk/oqa9xtO5S\nmNKc/Q0P2L17LkdgmmyWmlt/Fg5xJLyhFJh4JyMcp4vCkZ0/6ZKHkeLtuqjIPjOx\nMh1+6MsgtXbqwWIyLVGdNa+7IMt+3GU2xJ4hkPN1lKvts6vQq1uQx8DbruSegz6x\nzf06PCglAgMBAAECggEADvh3nl901fW0IW1+q75slIT+3DXVS10PRKHIhKER3oMu\n+xfQL0YNX+jDrd1utM67S3bS3OMtzq1520JCxoA7nNoRcuVo3/1LI2kfhqm8Spjh\nQP0mHs6n+8V9/Mo/yG1RXqEw1i5aQlM28nnxLPGxkYZ1dbCx4HbPN8GxcLgfXAq1\nK54FYf6L0UG+dgcyLTwPNRWKeh99xCDk32dTovYihld8/3lW+kG3zjXu5cxVdK9f\niXxuNLxOoGsbE6mZ8RwaHIEapgY7uDzrVe7GgaZaK9qiik9BzYl3C75CGegzinsN\nkQ/+T1RgUbLpFZ0y9GtmPzmfwlE+zA4tyIIRmAsdkQKBgQDsFfrjSryergFEX3Uy\nTmd3m4MkTYHFz7485EWofU8J4A1cl6qx1A5HCfgs9zuUwGs5qBGIjRbrHhoglNpA\nwE2mFlTCNYyn/ahc7rNcgBaYtl0xUi97BZ9JBs5FuwhQxa958mgybXLxsq9RCUP1\nRo5Meu5H8LavfCiKV57CL0eDhwKBgQC7b5OKlVGz0Wd1gqOLjcwHyXimesYi1uJD\nAePlSOnXU2yxlAdaNnYLNoAI1l2qiP9R3N6iLVcl67Y2vDVlCSs0CYoFJ/5L6Quq\nQCUSKP980yA8tp38Pv1Rx2qUBzVHi/TPTGi3gXtLRkSqbc4KiXdSzPheOFHSB/h6\nrkL7FTT58wKBgEXgw5/fETFOg6V/M6suNcXbS9fE8TJhqQdQ8aVLYcekf4/2fFmi\nUI+KTeDRVNtUkOhB7N6kFDKHeGhIZslfohwU5AWP4BAhLmJDbOdmKkoNQExG7TLW\nmSz+TLOrBm0R9jx8GYdDihAsOWQc//ZradcNU9YLU6dhcoZwJNeJMvulAoGANUdp\nFBqPx+J9WyzQWknrNkdxsTjy+1JDrLJr2nAYcGm5WtzuHhmfAl7ylBCDPYeFs/pp\nmoXy4MeY2wQy1U5+5mLTxdVxdph/BV0IbJoUzaGh50AttlcdYNKjnAJUhcrlwstA\ndPEsX+BQgnWF/P7IWVQEQZwWvfIgEpdYWNDVZzsCgYEAvYju8zj00Qm0Q7jVmmhh\ntk++qB7OXnggxJDLP+WmsSnUDxb5908xVK7zxj97fgU2EYKPMPqYcoKnsabOrM0s\n3QYPB4yF87D9P1ZkWgt8ubFmqas0zuHpxCxAPnpNrScvP35HqGI07vqk8R7aYf+m\n6EIz8c+zCb1otoRhpoLbGo8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "west-wind-service@westwind-326717.iam.gserviceaccount.com",
+  "client_id": "109503093981005897982",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/west-wind-service%40westwind-326717.iam.gserviceaccount.com"
+}

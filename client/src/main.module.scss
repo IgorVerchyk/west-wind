@@ -1,0 +1,53 @@
+@import'./helpers/vars.module.scss';
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app{
+    display: flex;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+.appContainer{
+    position:relative;
+    margin-left: auto;
+   margin-right: auto;
+    
+
+}
+@media screen and (max-width: 767px){
+    .appContainer{
+       width: 320px;
+    }
+    .appContentContainer{
+        min-height: 400px;
+    }
+}
+@media screen and (min-width: 768px){
+    .appContainer{
+        width: 768px;
+     }
+     .appContentContainer{
+        min-height: 600px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .appContainer{
+        width: 1024px;
+     }
+}
+@media screen and (min-width: 1280px){
+    .appContainer{
+        width: 1280px;
+     }
+}
+

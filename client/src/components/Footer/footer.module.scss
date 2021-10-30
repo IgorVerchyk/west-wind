@@ -1,0 +1,99 @@
+@import "../../main.module.scss";
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: $headerBackground;
+    border-color: $menuBorderColor;
+    border: 10px;
+    box-shadow: 0 5px 15px $appGlow;
+}
+.footerMenu{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+
+}
+.footerMenuItem, .footerMenuEditor{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 30px;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+}
+.mail,.facebook, .instagram, .login, .edit{
+height: 50px;
+width: 50px;
+border-radius: 20px;
+background-repeat: no-repeat;
+background-position: center;
+border: 5px solid $appBackground;
+
+}
+.mail{
+    background-image: url("../../assets//icons/email.svg");
+}
+.facebook{
+    background-image: url('../../assets/icons/premium-icon-facebook-3670271.svg');
+}
+.instagram{
+    background-image: url('../../assets/icons/premium-icon-instagram-3670274.svg');
+}
+.login{
+    background-image: url('../../assets/icons/login-_1_.svg');
+}
+.edit{
+    background-image: url('../../assets/icons/pencil.svg');
+   
+}
+.footerMenuEditor{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerLable{
+    margin-left: auto;
+    margin-right: auto;
+    color: $appBackground;
+    font-size: 12px;
+}
+@media screen and (max-width: 767px) {
+   .footer{
+    min-height: 100px;
+   }
+   .footerMenu{
+    margin-top: 30px;
+    width: 150px;
+
+}
+
+.footerMenuItem:nth-child(2n){
+    margin-left: 30px;
+}
+    
+}
+@media screen and (min-width: 768px) {
+    .footer{
+        min-height: 200px;
+       }
+       .footerMenu{
+        margin-top: 50px;
+        width: 330px;
+    
+    }
+    .footerMenuItem{
+        margin-right: 30px;
+    }
+    .footerMenuItem:nth-child(4n){
+        margin: 0;
+    }
+    
+}
+@media screen and (min-width: 1024px){
+   
+}
+@media screen and (min-width: 1440px){
+    
+}

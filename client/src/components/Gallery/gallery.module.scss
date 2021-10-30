@@ -1,0 +1,79 @@
+@import'../../helpers/vars.module.scss';
+.galleryContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.galleryItem{
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.imageOverlay{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.galleryCollection{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+.galleryImage{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/westWindLogo.png);
+    background-color: $headerBackground;
+    background-position: center;
+    &:hover,
+&:focus {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+} 
+@media screen and (max-width: 767px) {
+    .galleryContainer{
+        width: 300px;
+    }
+    .galleryCollection{
+        flex-direction: column;
+    }
+    .galleryImage{
+        margin-left: auto;
+        margin-right: auto;
+        width: 270px;
+        max-height: 230px;
+    }
+   }
+@media screen and (min-width: 768px){
+    .galleryContainer{
+        width: 700px;
+    }
+    .galleryItem{
+        width: 350px;
+    }
+    .galleryImage{
+        margin-left: auto;
+        margin-right: auto;
+        width: 346px;
+        max-height: 300px;
+    }
+
+}
+@media screen and (min-width: 1024px){
+   
+}
+@media screen and (min-width: 1440px){
+    
+}

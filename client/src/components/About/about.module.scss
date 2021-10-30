@@ -1,0 +1,136 @@
+@import"../../helpers/vars.module.scss";
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutTitle{
+    margin-left: auto;
+    margin-right: auto;
+    color: $headerBackground;
+}
+.aboutText{
+    color: $headerBackground
+}
+.profilesSection{
+    display: flex;
+}
+.profileContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.avatarOverlay{
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    border: 5px solid $headerBackground;
+}
+.avatar{  
+    margin: 0;
+    padding: 0;
+    transform: translate( -10%, -5%);
+}
+.descContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lowerLine{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 2px;
+    background-color: $appGlow;
+}
+.name{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: $headerBackground;
+}
+.description{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: $headerBackground;
+}
+@media screen and (max-width: 767px){
+    .aboutContainer{
+        width: 300px;
+    }
+    .profilesSection{
+        flex-direction: column;
+    }
+    .profileContainer{
+        margin-left: auto;
+        margin-right: auto;
+        height: 290px;
+    }
+    .avatarOverlay{
+       width: 150px;
+       height: 200px;
+       border-radius: 20px;
+       border: 3px solid $headerBackground
+    }
+    .avatar{
+      max-width: 200px;
+    }
+    .profilesSection{
+    display: flex;
+    }
+    .name{
+        margin-top: 10px;
+    }
+    .description{
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+   
+}
+@media  screen and (min-width: 768px) {
+    .aboutContainer{
+        width: 700px;
+    }
+    .profilesSection{
+        margin-left: auto;
+        margin-right: auto;
+        width: 690px;
+        flex-wrap: wrap;
+    }
+    .profileContainer{
+        width: 230px;
+        height: 290px;
+    }
+    .avatarOverlay{
+       width: 150px;
+       height: 200px;
+       border-radius: 20px;
+    }
+    .avatar{
+      max-width: 200px;
+    }
+    .profilesSection{
+    display: flex;
+    }
+    .name{
+        margin-top: 10px;
+    }
+    .description{
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    .lowerLine{
+        margin-bottom: 20px;
+        width: 180px;
+    }
+}
+@media screen and (min-width: 1024px){
+    
+}
+@media screen and (min-width: 1440px){
+   
+}

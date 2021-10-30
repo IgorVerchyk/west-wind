@@ -1,0 +1,120 @@
+@import "../../helpers/vars.module.scss";
+
+.eventSectionContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.event{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px  $appGlow;
+    background-color: $appGlow;
+}
+.eventContainer{
+    display: flex;
+    &:hover,
+    &:focus{
+       transform: scale(1.02);}
+}
+.eventBackground{
+    background-position: center;
+    background-repeat: no-repeat;
+        background-image: url(../../assets/images/westWindLogo.png);
+}
+.eventDeskr{
+    position: absolute;  
+}
+.eventDate{
+    background-color: $appGlow;
+    margin-left: 5px;
+    color:$appBackground;
+    width: fit-content;
+}
+.eventTitle{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    width: fit-content;
+    background-color: $textBackground;
+    color: $appGlow;
+}
+.eventDescription{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content;
+    margin-top: 40px;
+    margin-left: 5px;
+    background-color:$textBackground;
+    color: $appGlow;
+    height: fit-content;
+}
+@media screen and (max-width: 767px){
+    .eventDeskr{
+        width: 290px;
+        height: 200px;
+    }
+    .eventSectionContainer{
+        margin-top: 40px;
+    }
+    .event{
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-bottom: 10px;
+        width: 300px;
+        height: 200px;
+    }
+    .eventBackground{
+        width: 300px;
+        height: 200px;
+    }
+    .eventDescription{
+        max-width: 270px;
+        height: fit-content;
+    }
+   
+}
+@media  screen and (min-width: 768px) {
+    .eventSectionContainer{
+        width: 768px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .event{
+        margin-bottom: 20px;
+        width: 354px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .eventBackground{
+        width: 354px;
+        height: 250px;
+    }
+    .eventDescription{
+        max-width: 300px;
+    }
+  
+    
+}
+@media screen and (min-width: 1024px){
+    .eventSectionContainer{
+        width: 1024px;
+    }
+    .event{
+        margin-bottom: 20px;
+        width: 307px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .eventDescription{
+        max-width: 270px;
+    }
+    
+}
+@media screen and (min-width: 1440px){
+   
+}

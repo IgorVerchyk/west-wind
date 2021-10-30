@@ -1,0 +1,27 @@
+@import"../../helpers/vars.module.scss";
+.buttoncontainer{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    width: 50px;
+    height: 20px;
+    z-index: 2;
+    border: 2px solid $eventDescr
+}
+.active{
+    cursor: pointer;
+    color: $headerBackground;
+    background-color: $eventDescr;
+    width: 24px;
+    height: 18;
+    margin:  1px 1px 1px 1px
+}
+.passive{
+    cursor: pointer;
+    color: $eventDescr;
+    background-color:$headerBackground;
+    width: 24px;
+    height: 18;
+    margin:  1px 1px 1px 1px
+}

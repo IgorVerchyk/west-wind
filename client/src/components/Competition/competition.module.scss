@@ -1,0 +1,112 @@
+@import '../../helpers/vars.module.scss';
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.competitionLink{
+    position: relative;
+}
+.competitionSectionContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.competition{
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    box-shadow: 0 0 6px  $appGlow;
+    background-color: $appGlow;
+    border: 2px solid $headerBackground
+}
+.competitionOverlay{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    &:hover,
+    &:focus{
+       transform: scale(1.02);}
+}
+.compBackground{
+    position: absolute;
+    background-image: url("../../assets/images/westWindLogo.png");
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.compTitle{
+    position: absolute;
+    text-decoration: none;
+    color:$headerBackground;
+    background-color: $textBackground;
+    top:40%;
+    left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lowerLine{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 2px;
+    background-color: $appGlow;
+}
+.aboutTitle{
+    margin-left: auto;
+    margin-right: auto;
+    color: $headerBackground;
+}
+.cometitionsTopTitle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: $headerBackground;
+}
+
+@media screen and (max-width: 767px){
+    .competition{
+        width: 310px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .competitionOverlay{
+        width: 310px;
+        height: 200px;
+    }
+    .compBackground{
+       max-width: 310px;
+    }
+}
+@media  screen and (min-width: 768px) {
+    .competitionSectionContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 708px;
+    }
+    .competition{
+        width: 340px;
+        height: 150px;
+    }
+    .competitionLink:nth-child(2n){
+        margin-left: 20px;
+    }
+    .competitionOverlay{
+        width: 340px;
+        height: 150px;
+    }
+    .compBackground{
+       max-width: 340px;
+       top: -40%
+    }
+    .compTitle{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (min-width: 1024px){
+   
+}

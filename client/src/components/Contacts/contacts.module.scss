@@ -1,0 +1,32 @@
+@import"../../helpers/vars.module.scss";
+.contactTitle{
+    color: $headerBackground
+}
+.horisontalLine{
+    height: 3px;
+    background-color: $headerBackground;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 767px){
+    .contactsContainer{
+        height: 400px;
+    }
+    .horisontalLine{
+        width: 250px;
+    }
+ }
+ @media screen and (min-width: 768px){
+    .contactsContainer{
+        height: 400px;
+    }
+    .horisontalLine{
+        width: 350px;
+    }
+ }
+ @media screen and (min-width: 1024px){
+    
+ }
+ @media screen and (min-width: 1280px){
+     
+ }

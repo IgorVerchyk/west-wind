@@ -1,0 +1,41 @@
+@import '../../helpers/vars.module.scss';
+
+.navContainer{
+    position: relative;
+    display: flex;
+   
+}
+.edit{
+    position: absolute;
+}
+
+
+@media screen and (max-width: 767px) {
+    .navContainer{
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: 270px;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .navContainer{
+        width: 590px;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+}
+@media screen and (min-width: 1024px){
+    .navContainer{
+        width: 720px;
+        margin-top: 140px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .navContainer{
+        width:  900px;
+        margin-left: 100px;
+    }
+}

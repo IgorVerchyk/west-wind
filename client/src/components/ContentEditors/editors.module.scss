@@ -1,0 +1,185 @@
+@import"../../helpers/vars.module.scss";
+.editorContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:24px ;
+    color: $headerBackground;
+}
+.editorForm{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    border-radius: 10px;
+   height: fit-content;
+   border: 5px rgb(28, 154, 215) solid;
+   box-shadow: 0 0 10px rgba(28, 154, 215, 0.9);
+}
+.formLabel{
+    margin-left: auto;
+    margin-right: auto;
+}
+.formInput{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    max-width: 250px;
+   height: fit-content;
+   margin-top: 5px;
+   margin-bottom: 5px;
+
+}
+.sectionLine{
+   width: 200px;
+   height: 3px;
+   background-color: $headerBackground;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+.partisipants{
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid $headerBackground;
+    border-radius: 10px;
+}
+.selectedProfile,
+.nonSelectedProfile{
+    border-radius: 5px;
+    width: 83px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.selectedProfile{
+    background-color: $appBackground;
+    color:$headerBackground
+}
+.nonSelectedProfile{
+    background-color: $headerBackground;
+    color: $appBackground;
+   
+}
+.raseContainer,.raseContainerError{
+    display: flex;
+    flex-direction: column;
+    border:2px solid $appGlow;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.raseContainerError{
+    border-color: $error-color;
+}
+.resultInput,.resultError{
+    display: flex;
+width: 270px;
+border: 1px solid $headerBackground;
+margin-top: 1px;
+margin-bottom: 1px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+.resultError{
+    border: 1px solid $error-color;
+}
+.resultTeam{
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.resultTime{
+    width: 50px;
+}
+.addResult,.notActive{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background-color: $headerBackground;
+    margin-left: 7px;
+    border: 1px solid $headerBackground;
+    border-radius: 3px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+.addResultPlus, .addResultPlusDisabled{
+  margin: 0;
+   margin-left: auto;
+ margin-right: auto;
+  margin-bottom: 10px;
+  font-size: 29px;
+  color: $appBackground;
+  cursor: pointer;
+}
+.notActive{
+    background-color: $appBackground;
+}
+.addResultPlusDisabled{
+    color:  $headerBackground;
+}
+.addButton, .added{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    border: 1px solid $appGlow;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 10px rgba(28, 154, 215, 0.9);
+    background-color: $headerBackground;
+    color: $appBackground;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.added{
+    background-color: $appBackground;
+    color: $headerBackground;
+}
+.loaded{
+    border-color: greenyellow;
+}
+@media screen and (max-width: 767px){
+   
+   
+   
+
+   
+}
+@media  screen and (min-width: 768px) {
+   
+    
+  
+    
+}
+@media screen and (min-width: 1024px){
+  
+    
+}
+@media screen and (min-width: 1440px){
+   
+}

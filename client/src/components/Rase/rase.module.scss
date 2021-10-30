@@ -1,0 +1,60 @@
+@import "../../helpers/vars.module.scss";
+.raseContainer{
+    position: relative;  
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 30px;
+}  
+
+.raseHeader{
+    background-color: $headerBackground;
+    display: flex;
+    flex-direction: column;
+}
+.raseTitle{
+  color: $appBackground;
+  margin-left: auto;
+  margin-right: auto;
+}
+.partisipant{
+    display: flex;
+}
+.team{
+    width: 200px;
+    background-color: $textBackground;
+    padding-left: 20px;
+}
+.time{
+    width: 100px;
+    padding-left: 20px;
+    background-color: $eventDescr;
+}
+.lowerLine{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 2px;
+    background-color: $appGlow;
+}
+@media screen and (max-width: 767px){
+   .raseContainer{
+       width: 300px;
+   }
+   .raseHeader{
+   height: 60px;
+}
+}
+@media  screen and (min-width: 768px) {
+   
+    
+}
+@media screen and (min-width: 1024px){
+   
+}

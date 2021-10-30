@@ -1,0 +1,29 @@
+{
+    "navButtons":{
+        "Home":"Home",
+        "Competitions":"Competitions",
+        "Gallery":"Gallery",
+        "AboutClub":"About Club",
+        "Contacts":" Contacts"
+    },
+    "heroText":"Zakhidnui Viter (West-wind in ukrainian) is a dragonboat sport club",
+    "aboutClubTitle":"About club",
+    "aboutClub":"Testing Text Testing Text Testing Text Testing Text Testing Text Testing Text Testing Text Testing Text Testing Text Testing Text Testing Text ",
+    "aboutOunerSectionTitle": "Club Creators",
+    "aboutClubMenbersSectionTitle":"Club Members",
+    "eventsTitle":"Events",
+    "competitionsTitle":"Competitions",
+    "loadingButton":"Load more",
+    "contacts":{
+        "contactTitle":"Contacts",
+        "addres":"Ukraine, Volunska obl, Kovel Varchavska st.",
+        "phoneTitle":"Contact phone number:"
+    },
+    "galleryMoreButton":"Load more...",
+    "raseShowCrew":"Crew",
+    "user":"user",
+    "password":"password",
+    "login":"login",
+    "clickToGo":"See competition protocols",
+    "clickToSee":"Click to see competition protocols"
+}
