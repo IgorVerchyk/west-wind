@@ -3,7 +3,6 @@ const authService = require("../servises/authServise")
 
 exports.login = async (req, res) => {
     const { user, password } = req.body;
-    console.log(req.body)
     try {
       const result = await authService.login({ user, password });
       if (!result) {

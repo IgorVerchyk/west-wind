@@ -6,7 +6,7 @@ import eventBodyFormer from '../../utils/eventBodyFormer';
 import clubBodyFormer from '../../utils/clubBodyFormer';
 
 
-const baseURL = 'http://localhost:3002/club';
+const baseURL = 'https://zakhidnyiviter.com/club';
 
 const getContent = link=> async  dispatch =>{ 
          dispatch(clubActions.getContentRequest())

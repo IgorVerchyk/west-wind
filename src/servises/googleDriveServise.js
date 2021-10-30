@@ -27,7 +27,6 @@ const drive = google.drive({
 
 
 async function uploadFile (file){
-    console.log("file", file)
     const bs = new stream.PassThrough();
      const streamedFile =  bs.end(file.data);
 try{
@@ -95,6 +94,5 @@ exports.toDeleteGallery= async array =>{
 }
 
 exports.toDeleteFile = async id =>{
-    console.log(id)
     await deleteFile(id)
 }

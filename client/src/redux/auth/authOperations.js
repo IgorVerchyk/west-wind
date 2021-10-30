@@ -4,7 +4,7 @@ import  {authActions} from './index';
 
 import appActions  from '../app/appActions';
 
-const baseURL = 'http://localhost:3002/auth';
+const baseURL = 'https://zakhidnyiviter.com/auth';
 
 const token = {
     set(token) {

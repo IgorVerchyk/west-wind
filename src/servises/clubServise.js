@@ -63,7 +63,6 @@ const {link}= content.body
 }
 
 exports.removeContent = async( id, link)=>{
-    console.log(id, link)
     try{
         if(link==="events"){
             const events = await repository.getData(eventModel)
