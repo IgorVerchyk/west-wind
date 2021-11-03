@@ -6,11 +6,12 @@ import eventBodyFormer from '../../utils/eventBodyFormer';
 import clubBodyFormer from '../../utils/clubBodyFormer';
 
 
-const baseURL = 'https://zakhidnyiviter.com/club';
+const baseURL = 'http://hqua0210238.online-vm.com/club';
+console.log(process.env.BASE_URL)
 
 const getContent = link=> async  dispatch =>{ 
          dispatch(clubActions.getContentRequest())
-        await axios.get(`${baseURL}/getContent/`)
+        await axios.get(`${baseURL}/getContent`)
          .then( ({data}) => dispatch(clubActions.getContentSuccess(data)))
          .catch(error=>dispatch(clubActions.getContentError(error)))
 

@@ -2,9 +2,11 @@ const express = require('express')
 const fileUpload = require('express-fileupload')
 const cors = require('cors')
 const config = require("./config/default")
+const path = require('path')
 const mongoose = require('mongoose'); 
 const clubRouter = require('./src/routes/club')
 const authRouter =require('./src/routes/auth')
+const { resolve } = require('path')
 
 
 const app = express()
@@ -19,6 +21,9 @@ app.use(fileUpload({}))
 
  app.use("/club", clubRouter);
  app.use("/auth", authRouter )
+
+ app.use("/", express.static(path.join(__dirname, 'client', 'build')))
+ app.get('*', (req,res)=>{res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))})
 
 const PORT = process.env.PORT || 3001
 

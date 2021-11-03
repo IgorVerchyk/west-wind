@@ -4,7 +4,7 @@ import  {authActions} from './index';
 
 import appActions  from '../app/appActions';
 
-const baseURL = 'https://zakhidnyiviter.com/auth';
+const baseURL = 'http://hqua0210238.online-vm.com/auth';
 
 const token = {
     set(token) {
@@ -25,7 +25,7 @@ const token = {
       
       axios.defaults.headers.common['token'] = (data);
     } catch (error) {
-      dispatch(authActions.loginError(error.response.data));
+      dispatch(authActions.loginError(error));
       dispatch(appActions.setMessage("Вхід не виконано"))
     }
   };

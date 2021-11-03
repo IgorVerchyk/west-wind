@@ -33,7 +33,7 @@ return(
   <h4 className={styles.cometitionsTopTitle}>{textContent.clickToSee}</h4>
 <div className={styles.competitionSectionContainer}>
     {competitions&&competitions.map(competition=><Comp key={competition._id} competition={competition}/>)}
-    {(selector.length > 8) &&(selector.length > index)
+    {(selector) &&(selector.length > 8) &&(selector.length > index)
       &&<MenuButton text={textContent.galleryMoreButton} onClick={e=>showMoreCompetitions(index, setIndex)}/>}
 </div>
 </div>

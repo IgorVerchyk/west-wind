@@ -31,7 +31,7 @@ const Gallery= ({collection}) => {
                </div>
             </li>)}
         </ul>
-      {(collection.length > 8) &&(collection.length > index)
+      {(collection) &&(collection.length > 8) &&(collection.length > index)
       &&<MenuButton text={textContent.galleryMoreButton} onClick={e=>showMoreImages(index, setIndex)}/>}
     </div>
   );
