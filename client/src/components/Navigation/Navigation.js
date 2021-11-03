@@ -9,15 +9,16 @@ import styles from "./nav.module.scss"
 export default function Navigation(){
     const text = useContext(langContext)
     return(
+        
         <nav className={styles.navContainer}>
-          
-         <NavButton path={`/`} text={text.navButtons.Home}/>
-         <NavButton path={`/competitions`} text={text.navButtons.Competitions}/>
-         <NavButton path={`/gallery`} text={text.navButtons.Gallery}/>
-         <NavButton path={`/about`} text={text.navButtons.AboutClub}/>
-         <NavButton path={`/contacts`} text={text.navButtons.Contacts}/>
+          <div className={styles.navButton}><NavButton path={`/`} text={text.navButtons.Home}/></div>
+          <div className={styles.navButton}><NavButton path={`/competitions`} text={text.navButtons.Competitions}/></div>
+          <div className={styles.navButton}><NavButton path={`/gallery`} text={text.navButtons.Gallery}/></div>
+          <div className={styles.navButton}><NavButton path={`/about`} text={text.navButtons.AboutClub}/></div>
+          <div className={styles.navButton}><NavButton path={`/contacts`} text={text.navButtons.Contacts}/></div>
 
         </nav>
+       
     )
   
 }

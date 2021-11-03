@@ -4,8 +4,6 @@ const USER = process.env.USER
 const PASSWORD = process.env.PASSWORD
 
 exports.login= async({ user, password })=> {
-  console.log(user, password)
-  console.log(USER, PASSWORD)
     if (!user || !password) {
       return null;
     }

@@ -11,8 +11,9 @@ const Contacts =()=>{
             <h2 className={styles.contactTitle}>{textContent.contacts.contactTitle}</h2>
             <div className={styles.horisontalLine}></div>
             <p className={styles.addres}>{textContent.contacts.addres}</p>
-            <p className={styles.addres}>{textContent.contacts.phoneTitle&&`5555-555-555`}</p>
-            <p className={styles.addres}>test@testemail.com</p>
+            <p className={styles.addres}>+38(097)999-12-11<br/>
+            +38(096)033-03-33</p>
+            <p className={styles.addres}>zakhidviter@gmail.com</p>
             <div className={styles.horisontalLine}></div>
            
         </div>

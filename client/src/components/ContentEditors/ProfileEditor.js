@@ -42,7 +42,6 @@ const ProfileEditor =()=>{
         else if(nameUa ===""){ setError(true); return}
         else if(avatar ===""){ setError(true); return}
          dispatch(clubOperations.addContent(body)) ;
-          console.log('club request formed and send to next ', body)
     },[ dispatch, nameUa, nameEn, avatar, uaDescription, enDescription, isOuner])
     return(
         <>
