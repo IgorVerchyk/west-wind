@@ -5,6 +5,7 @@ import  {authActions} from './index';
 import appActions  from '../app/appActions';
 
 const baseURL = 'http://hqua0210238.online-vm.com/auth';
+// const baseURL ='http://localhost:3002/auth'
 
 const token = {
     set(token) {

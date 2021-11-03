@@ -7,6 +7,8 @@ import clubBodyFormer from '../../utils/clubBodyFormer';
 
 
 const baseURL = 'http://hqua0210238.online-vm.com/club';
+// const baseURL ='http://localhost:3002/club'
+
 console.log(process.env.BASE_URL)
 
 const getContent = link=> async  dispatch =>{ 
