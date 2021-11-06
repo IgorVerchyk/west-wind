@@ -16,11 +16,13 @@ const Competitions=()=>{
  const selector = useSelector(state=>state.data.content.competitions)
  const isLoggedIn= useSelector(state=>state.auth.isLogged)
  const textContent =useContext(langContext)
+ console.log(competitions)
 
  const dispatch= useDispatch()
  if(isLoggedIn){dispatch(authOperations.currentUser(isLoggedIn))}
+
  useEffect(()=>{
-   competitions&& setCompetitions(selector.slice(0, index))
+   selector&& setCompetitions(selector.slice(0, index))
    
   },[index, selector,competitions])
 

@@ -81,7 +81,7 @@ exports.toHandleImage =async file =>{
 exports.toHandleGallery = async array =>{
     const gallery = [];
     for( const file of array){
-     await toHandleImage(file).then(res=>gallery.push(res)) 
+     await this.toHandleImage(file).then(res=>gallery.push(res)) 
     } 
     return gallery
 
