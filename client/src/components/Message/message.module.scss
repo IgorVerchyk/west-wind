@@ -3,14 +3,13 @@
     position: fixed;
     display: flex;
     width: 200px;
-    height: 100px;
+    height: 120px;
     flex-direction: column;
     top: 50px;
     margin-left: auto;
     margin-right: auto;
     background-color: $appBackground;
-    border-radius: 30px;
-    border: 5px solid $headerBackground;
+    border-radius: 10px;
     left: 50%;
     transform: translate( -50%);
     z-index: 3;

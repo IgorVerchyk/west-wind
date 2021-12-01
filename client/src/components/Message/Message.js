@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import appOperations from "../../redux/app/appOperations";
 
 import styles from "./message.module.scss"
+import MenuButton from "../Buttons/MenuButton"
 
  const Message =()=>{
 
@@ -17,8 +18,8 @@ import styles from "./message.module.scss"
 
      return(
          <div className={styles.messageContainer}>
-              <div className={styles.close} onClick={onClose}></div>
              <p className={styles.message}>{message}</p>
+             <MenuButton text={"OK"} onClick={onClose}/>
          </div>
      )
  }
